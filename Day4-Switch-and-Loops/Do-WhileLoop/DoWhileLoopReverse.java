@@ -1,10 +1,14 @@
 public class DoWhileLoopReverse {
-    public void main (String[]args)
+    public static void main (String[]args)
     {
         int i=10;
-        do{
+        do
+        {
             System.out.println(i);
             i--;
-        }while(i>=1);
+        }
+        while(i>=1);
     }
 }
+
+
